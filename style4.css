@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#lorem, .one{
+    color: rgb(209, 117, 13);
+    background-color: antiquewhite;
+}
+.ipsum{
+    color: rgb(58, 175, 165);
+}
+div{
+    background-color:#A04000  ;
+}
+input[type=password]{
+    color: rgb(112, 94, 94);
+}

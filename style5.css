@@ -1,0 +1,12 @@
+.lorem{
+    background-color:rgba(0, 0, 255, 0.582) ;
+}
+#ipsum{
+    background-image: url(hh.jpg);
+    /* background-size: cover; */
+    background-size: 200px 100px;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-position: bottom left; */
+    background-position: center ;
+}

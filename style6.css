@@ -1,0 +1,20 @@
+.one{
+    color: rgb(151, 27, 23);
+    background-color: rgb(139, 114, 161);
+    border: 20px solid rgb(38, 173, 173);
+    border-width: 6px;
+    border-radius: 12px;
+    /* padding: 12px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 20px;
+    /* box-shadow: 10px 5px #48abe0; */
+}
+.two{
+
+}
+.three{
+
+}

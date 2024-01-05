@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(189, 75, 81, 0.829);
+}
+h1{
+    color: rgb(104, 150, 150);
+    text-align: center;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace ;
+    font-style:normal ;
+    text-decoration:solid;
+    text-decoration-color: aqua;
+}
+p{
+    color: rgba(170, 194, 63, 0.842);
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+li{
+    color: rgb(87, 22, 148);
+    /* text-align: ; */
+    font-size:large ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: unset;
+}
