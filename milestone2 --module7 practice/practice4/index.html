@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            
+            align-items: center;
+            /* justify-content: center; */
+            
+            gap: 20px;
+        }
+
+        .it-first, .it-second{
+            border: 2px solid tomato;
+            width: 100%;
+        }
+        @media screen and (max-width : 576px) {
+            .container{
+                
+                flex-direction: column;
+            }
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="it-first">
+            <img src="one.jpeg" alt="">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestias optio rerum laudantium,
+                quasi dignissimos praesentium. Quia culpa quidem nisi odio blanditiis fugit dolore laborum, explicabo
+                delectus accusamus, alias quasi?</p>
+            <button>Try It</button>
+        </div>
+        <div class="it-second">
+            <img src="two.webp" alt="">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestias optio rerum laudantium,
+                quasi dignissimos praesentium. Quia culpa quidem nisi odio blanditiis fugit dolore laborum, explicabo
+                delectus accusamus, alias quasi?</p>
+            <button>Try It</button>
+        </div>
+    </div>
+</body>
+
+</html>
