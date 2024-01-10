@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamButTwo</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            width: 1500px;
+            border: 1px solid firebrick;
+            gap: 10px;
+        }
+       .img-container img{
+        width: 100%;
+       } 
+       @media screen and (max-width : 576px) {
+        .container{
+            width: 100%;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+       }
+       @media screen and (min-width : 577px) and (max-width : 992px) {
+        .container{
+            width: 100%;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+       }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img-container">
+            <img src="img1.avif" alt="">
+            </div>
+        <div class="img-container">
+            <img src="img1.avif" alt="">
+        </div>
+        <div class="img-container">
+            <img src="img1.avif" alt="">
+            </div>
+        <div class="img-container">
+            <img src="img1.avif" alt="">
+        </div>
+    </div>
+</body>
+</html>
